@@ -1,0 +1,78 @@
+/* .container-player {
+
+} */
+
+
+.player-name {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 3px 1px var(--main-color);
+}
+
+.player-banner {
+    padding: 20px;
+    /* border: 1px double rgb(192, 115, 189); */
+    background-color: azure;
+}
+
+.player-banner .avatar img {
+    max-width: 100%;
+    height: auto;
+}
+
+.player-nationality {
+    display: flex;
+    justify-content: space-around;
+    border: 1px soild ; 
+    padding: 5px;
+    margin: 10px;
+}
+
+.player-nationality img {
+    width: 30%;
+}
+
+.player-nationality p {
+    font-size: 2em;
+}
+
+.club-card {
+    /* height: 100px; */
+    text-align: center;
+}
+
+.club-card .club-logo img {
+    width: 50%;
+}
+
+.jersey-number {
+    font-size: 10em;
+    border: 2px solid blue;
+    border-radius: 15px 50px;
+
+}
+/* sidebar */
+.player-sidebar {
+    padding: 10px;
+}
+
+.player-sidebar .player-info{
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: var(--main-color);
+}
+
+.player-desc{
+    font-weight: 350;
+    font-style: italic;
+}
+
+
+.infor-player-flex {
+    display: flex;
+    justify-content: space-between;
+}
+

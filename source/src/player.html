@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Các thẻ meta cần thiết -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Liên kết tới CSS của Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <title>Player</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../assets/css/root.css" />
+  <link rel="stylesheet" href="../assets/css/player.css" />
+  <link rel="stylesheet" href="../assets/css/home.css">
+
+
+</head>
+
+<body>
+
+  <!-- header begin -->
+  <div>
+    <div class="container-fluid bg__dark-blue">
+      <div class="container">
+        <nav>
+          <div class="container-flex ">
+            <div class="logo">
+              <a href="#"><img src="../assets/images/logo.png" alt="Logo" class="img-fluid" /></a>
+            </div>
+
+            <ul class=" container-flex d__none994--max">
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-solid fa-rss"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-brands fa-tiktok"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-light">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+            <div class="icon-bar">
+              <a class="nav-link d__none994--min" href="#"><i class="fa fa-fw fa-home"></i>Home</a>
+
+              <a class="nav-link d__none994--min" href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+              <a class="nav-link d__none994--min" href="#"><i class="fa fa-fw fa-user"></i>Login</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="material-icons">&#xe5d2;</i>
+              <!-- <span class="navbar-toggler-icon"></span> -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" aria-current="page" href="./home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./player.html">Player</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./club.html">Club</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./match.html">Match</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- header end-->
+
+
+
+  <div class="container pt-3">
+    <form class="d-flex align-items-center justify-content-between">
+      <button class="btn btn-primary me-1" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      <input class="form-control" type="search" placeholder="Tìm kiếm..." aria-label="Search">
+    </form>
+
+  </div>
+
+
+  <div class="container pt-3">
+
+
+
+
+    <!-- Thêm thẻ card 2, 3, 4 tương tự -->
+    <!-- ... -->
+    <!-- Danh sách thẻ card -->
+    <div class="container list-card">
+      <div class="row">
+        <!-- Thẻ card 1 -->
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <!-- Hình ảnh và thông tin cầu thủ -->
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <!-- Hình ảnh cầu thủ -->
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <!-- Thông tin cầu thủ -->
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" />
+                  <span class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+            <!-- Details về cầu thủ -->
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <!-- Thông tin trái -->
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <!-- Thông tin phải -->
+              <div>
+                <p class="text-end">24/06/1987</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" />
+                  <span class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+            <!-- Nút Details -->
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Thêm thẻ card 2, 3, 4 tương tự -->
+        <!-- ... -->
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/cristiano-ronaldo-1620115323_m_100x100.jpg"
+                  alt="L. Messi" />
+              </div>
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">Cristiano Ronaldo</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/pt.svg" alt="" /><span
+                    class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <div>
+                <p class="text-end">05/02/1985</p>
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/33.png" alt="" /><span class="pl__8px">Man
+                    Utd</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">83 kg</p>
+                <p class="text-end">187 cm</p>
+              </div>
+            </div>
+
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 2 -->
+
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/neymar-1620116914_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">Neymar</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/br.svg" alt="" /><span
+                    class="pl__8px">PSG</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <div>
+                <p class="text-end">24/06/1987</p>
+
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" /><span
+                    class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">68 kg</p>
+                <p class="text-end">175 cm</p>
+              </div>
+            </div>
+
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 3 -->
+
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="card-item">
+          <div class="card mb-3 box-shadow" style="color: black">
+            <div class="hover__boder border-bottom pt-2 d-flex">
+              <div class="rounded-circle player-icon px-3">
+                <img width="200px" class="img-fluid rounded-circle"
+                  src="https://i-thethao.vnecdn.net/logo/2021/05/04/l-messi-1620116766_m_100x100.jpg" alt="L. Messi" />
+              </div>
+              <div class="text-start">
+                <p class="h6 pt-2 font-weight-bold">L. Messi</p>
+                <p>
+                  <img width="10%" src="https://is.vnecdn.net/objects/country/ar.svg" alt="" /><span
+                    class="pl__8px">Argentina</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="infor-player-flex p__lr-20px pt-2">
+              <div style="white-space: nowrap">
+                <p class="text-start">Dob:</p>
+                <p class="text-start">Club</p>
+                <p class="text-start">Position:</p>
+                <p class="text-start">Weight:</p>
+                <p class="text-start">Height:</p>
+              </div>
+              <div>
+                <p class="text-end">24/06/1987</p>
+
+                <p class="text-end">
+                  <img width="10%" src="https://is.vnecdn.net/objects/teams/85.png" alt="" /><span
+                    class="pl__8px">PSG</span>
+                </p>
+                <p class="text-end">Striker</p>
+                <p class="text-end">72 kg</p>
+                <p class="text-end">170 cm</p>
+              </div>
+            </div>
+
+            <button class="btn btn-outline-dark">
+              Details <span class="pl-1">></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <footer class="bg__dark-blue">
+    <div class="footer">
+      <div class="container text-center">
+        <h3>Stay Updated with Football News</h3>
+        <p>Follow us on social media for the latest football updates.</p>
+        <div class="social-icons">
+          <a href="#" class="me-3"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="me-3"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="me-3"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <hr class="my-4" />
+      <div class="text-center">
+        <p>&copy;2023 Design By FireAlarm Team</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Liên kết tới các script JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <script src="../assets/js/home.js"></script>
+</body>
+
+</html>

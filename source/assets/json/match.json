@@ -1,0 +1,169 @@
+[
+  {
+    "match_info": {
+      "date": "2023-08-15",
+      "time": "19:45",
+      "location": "Stamford Bridge",
+      "competition": "Premier League",
+      "home_team": "Chelsea",
+      "away_team": "Manchester United",
+      "result": "2-2"
+    },
+    "events": [
+      {
+        "time": "12'",
+        "type": "Goal",
+        "player": "Marcus Rashford",
+        "team": "Manchester United"
+      },
+      {
+        "time": "34'",
+        "type": "Goal",
+        "player": "Romelu Lukaku",
+        "team": "Chelsea"
+      },
+      {
+        "time": "56'",
+        "type": "Yellow Card",
+        "player": "Bruno Fernandes",
+        "team": "Manchester United"
+      },
+      {
+        "time": "78'",
+        "type": "Goal",
+        "player": "Christian Pulisic",
+        "team": "Chelsea"
+      },
+      {
+        "time": "89'",
+        "type": "Goal",
+        "player": "Jadon Sancho",
+        "team": "Manchester United"
+      }
+    ]
+  },
+  {
+    "match_info": {
+      "date": "2023-08-20",
+      "time": "20:00",
+      "location": "Anfield",
+      "competition": "Premier League",
+      "home_team": "Liverpool",
+      "away_team": "Manchester City",
+      "result": "3-1"
+    },
+    "events": [
+      {
+        "time": "8'",
+        "type": "Goal",
+        "player": "Mohamed Salah",
+        "team": "Liverpool"
+      },
+      {
+        "time": "28'",
+        "type": "Goal",
+        "player": "Sadio Mane",
+        "team": "Liverpool"
+      },
+      {
+        "time": "42'",
+        "type": "Yellow Card",
+        "player": "Kevin De Bruyne",
+        "team": "Manchester City"
+      },
+      {
+        "time": "60'",
+        "type": "Goal",
+        "player": "Phil Foden",
+        "team": "Manchester City"
+      },
+      {
+        "time": "78'",
+        "type": "Goal",
+        "player": "Roberto Firmino",
+        "team": "Liverpool"
+      }
+    ]
+  },
+  {
+    "match_info": {
+      "date": "2023-08-25",
+      "time": "18:30",
+      "location": "Etihad Stadium",
+      "competition": "Premier League",
+      "home_team": "Manchester City",
+      "away_team": "Chelsea",
+      "result": "1-0"
+    },
+    "events": [
+      {
+        "time": "62'",
+        "type": "Goal",
+        "player": "Phil Foden",
+        "team": "Manchester City"
+      },
+      {
+        "time": "72'",
+        "type": "Yellow Card",
+        "player": "N'Golo Kanté",
+        "team": "Chelsea"
+      },
+      {
+        "time": "83'",
+        "type": "Substitution",
+        "player_in": "Jadon Sancho",
+        "player_out": "Antony",
+        "team": "Manchester City"
+      },
+      {
+        "time": "90+4'",
+        "type": "Red Card",
+        "player": "Kai Havertz",
+        "team": "Chelsea"
+      }
+    ]
+  },
+  {
+    "match_info": {
+      "date": "2023-08-28",
+      "time": "17:00",
+      "location": "Old Trafford",
+      "competition": "Premier League",
+      "home_team": "Manchester United",
+      "away_team": "Liverpool",
+      "result": "1-1"
+    },
+    "events": [
+      {
+        "time": "18'",
+        "type": "Goal",
+        "player": "Marcus Rashford",
+        "team": "Manchester United"
+      },
+      {
+        "time": "30'",
+        "type": "Yellow Card",
+        "player": "Virgil van Dijk",
+        "team": "Liverpool"
+      },
+      {
+        "time": "60'",
+        "type": "Goal",
+        "player": "Roberto Firmino",
+        "team": "Liverpool"
+      },
+      {
+        "time": "72'",
+        "type": "Yellow Card",
+        "player": "Scott McTominay",
+        "team": "Manchester United"
+      },
+      {
+        "time": "87'",
+        "type": "Red Card",
+        "player": "Fabinho",
+        "team": "Liverpool"
+      }
+    ]
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "leagues": [
+    {
+      "name": "Premier League",
+      "nationality": "England",
+      "round": 5,
+      "clubs": [
+        {
+          "name": "Chelsea",
+          "points": 12,
+          "stadium": "Stamford Bridge"
+        },
+        {
+          "name": "Liverpool",
+          "points": 15,
+          "stadium": "Anfield"
+        },
+        {
+          "name": "Manchester City",
+          "points": 10,
+          "stadium": "Etihad Stadium"
+        },
+        {
+          "name": "Manchester United",
+          "points": 11,
+          "stadium": "Old Trafford"
+        }
+      ]
+    },
+    {
+      "name": "La Liga",
+      "nationality": "Spain",
+      "round": 4,
+      "clubs": [
+        {
+          "name": "Atletico de Madrid",
+          "points": 9,
+          "stadium": "Wanda Metropolitano"
+        },
+        {
+          "name": "FC Barcelona",
+          "points": 12,
+          "stadium": "Camp Nou"
+        },
+        {
+          "name": "Real Madrid",
+          "points": 10,
+          "stadium": "Santiago Bernabéu"
+        },
+        {
+          "name": "Real Sociedad",
+          "points": 7,
+          "stadium": "Reale Arena"
+        }
+      ]
+    },
+    {
+      "name": "Bundesliga",
+      "nationality": "Germany",
+      "round": 3,
+      "clubs": [
+        {
+          "name": "Bayer 04 Leverkusen",
+          "points": 6,
+          "stadium": "BayArena"
+        },
+        {
+          "name": "Bayern Munich",
+          "points": 9,
+          "stadium": "Allianz Arena"
+        },
+        {
+          "name": "Borussia Dortmund",
+          "points": 7,
+          "stadium": "Signal Iduna Park"
+        },
+        {
+          "name": "RB Leipzig",
+          "points": 8,
+          "stadium": "Red Bull Arena"
+        }
+      ]
+    },
+    {
+      "name": "Seria A",
+      "nationality": "Italy",
+      "round": 6,
+      "clubs": [
+        {
+          "name": "AC Milan",
+          "points": 14,
+          "stadium": "San Siro"
+        },
+        {
+          "name": "Inter Milan",
+          "points": 16,
+          "stadium": "San Siro"
+        },
+        {
+          "name": "Juventus FC",
+          "points": 10,
+          "stadium": "Allianz Stadium"
+        },
+        {
+          "name": "SSC Napoli",
+          "points": 12,
+          "stadium": "Diego Armando Maradona"
+        }
+      ]
+    },
+    {
+      "name": "Ligue 1",
+      "nationality": "France",
+      "round": 4,
+      "clubs": [
+        {
+          "name": "AS Monaco",
+          "points": 9,
+          "stadium": "Stade Louis II"
+        },
+        {
+          "name": "Olympique Marseille",
+          "points": 8,
+          "stadium": "Stade Vélodrome"
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "points": 12,
+          "stadium": "Parc des Princes"
+        },
+        {
+          "name": "Stade Rennais FC",
+          "points": 7,
+          "stadium": "Roazhon Park"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "José Mourinho",
+    "club": "Chelsea",
+    "age": 60,
+    "state": true
+  },
+  {
+    "id": 2,
+    "name": "Pep Guardiola",
+    "club": "Manchester City",
+    "age": 50,
+    "state": true
+  },
+  {
+    "id": 3,
+    "name": "Jurgen Klopp",
+    "club": "Liverpool",
+    "age": 54,
+    "state": true
+  },
+  {
+    "id": 4,
+    "name": "Zinedine Zidane",
+    "club": "Real Madrid",
+    "age": 49,
+    "state": true
+  },
+  {
+    "id": 5,
+    "name": "Diego Simeone",
+    "club": "Atletico Madrid",
+    "age": 51,
+    "state": true
+  },
+  {
+    "id": 6,
+    "name": "Carlo Ancelotti",
+    "club": "Everton",
+    "age": 62,
+    "state": true
+  },
+  {
+    "id": 7,
+    "name": "Mauricio Pochettino",
+    "club": "Paris Saint-Germain",
+    "age": 49,
+    "state": true
+  },
+  {
+    "id": 8,
+    "name": "Erik ten Hag",
+    "club": "Ajax",
+    "age": 51,
+    "state": true
+  },
+  {
+    "id": 9,
+    "name": "Massimiliano Allegri",
+    "club": "Juventus",
+    "age": 54,
+    "state": true
+  },
+  {
+    "id": 10,
+    "name": "Thomas Tuchel",
+    "club": "Chelsea",
+    "age": 48,
+    "state": true
+  },
+  {
+    "id": 11,
+    "name": "Jürgen Klinsmann",
+    "club": "Hertha BSC",
+    "age": 57,
+    "state": false
+  },
+  {
+    "id": 12,
+    "name": "Arsène Wenger",
+    "club": "None",
+    "age": 72,
+    "state": true
+  },
+  {
+    "id": 13,
+    "name": "Marcelo Bielsa",
+    "club": "Leeds United",
+    "age": 66,
+    "state": true
+  },
+  {
+    "id": 14,
+    "name": "Brendan Rodgers",
+    "club": "Leicester City",
+    "age": 49,
+    "state": true
+  },
+  {
+    "id": 15,
+    "name": "Lucien Favre",
+    "club": "Borussia Dortmund",
+    "age": 63,
+    "state": true
+  },
+  {
+    "id": 16,
+    "name": "Andrea Pirlo",
+    "club": "None",
+    "age": 42,
+    "state": false
+  },
+  {
+    "id": 17,
+    "name": "Ralph Hasenhüttl",
+    "club": "Southampton",
+    "age": 54,
+    "state": true
+  },
+  {
+    "id": 18,
+    "name": "Zlatko Dalic",
+    "club": "Croatia (National Team)",
+    "age": 55,
+    "state": true
+  },
+  {
+    "id": 19,
+    "name": "Ronald Koeman",
+    "club": "Barcelona",
+    "age": 59,
+    "state": true
+  },
+  {
+    "id": 20,
+    "name": "Gian Piero Gasperini",
+    "club": "Atalanta",
+    "age": 63,
+    "state": true
+  }
+]

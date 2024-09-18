@@ -1,0 +1,17 @@
+:root {
+  --main-color: rgb(26, 27, 126); /*Main Website Color */
+  --background-color: #333333;
+  --primary-color: #ff8c00;
+  --hover-color: #ff5722;
+  --element-color: linear-gradient(
+    98.5deg,
+    #05f0ff -46.16%,
+    #7367ff 42.64%,
+    #963cff 70.3%
+  );
+}
+
+/* header */
+
+
+

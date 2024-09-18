@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Các thẻ meta cần thiết -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Liên kết tới CSS của Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <title>Home</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../assets/css/root.css" />
+  <link rel="stylesheet" href="../assets/css/home.css" />
+  <link rel="stylesheet" href="../assets/css/player.css" />
+</head>
+
+<body>
+  
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modal-xl ">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Profile</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body" id="modal-player-detail">
+       
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <!-- header begin -->
+  <div>
+    <div class="container-fluid bg__dark-blue">
+      <div class="container">
+        <nav>
+          <div class="container-flex ">
+            <div class="logo">
+              <a href="#"><img src="../assets/images/logo.png" alt="Logo" class="img-fluid" /></a>
+            </div>
+
+            <ul class=" container-flex d__none994--max">
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-solid fa-rss"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-brands fa-tiktok"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-light">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+            <div class="icon-bar">
+              <a class="nav-link d__none994--min" href="#"><i class="fa fa-fw fa-home"></i>Home</a>
+
+              <a class="nav-link d__none994--min" href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+              <a class="nav-link d__none994--min" href="#"><i class="fa fa-fw fa-user"></i>Login</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="material-icons">&#xe5d2;</i>
+              <!-- <span class="navbar-toggler-icon"></span> -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" aria-current="page" href="./home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./player.html">Player</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./club.html">Club</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./match.html">Match</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- header end-->
+
+  <div class="container">
+    <div class="border__red2px">SPOTLIGHT</div>
+  </div>
+
+  <div class="container pt-2">
+    <!-- Slider -->
+    <div class="row container-slider">
+      <div class="col-lg-8">
+        <!-- Carousel -->
+        <div id="main-caurousel" class="carousel slide" data-bs-ride="carousel" data-interval="5000">
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#main-caurousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#main-caurousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#main-caurousel" data-bs-slide-to="2"></button>
+          </div>
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../assets/images/slider/VN1.jpg" alt="VN1" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Haaland and Rodri fire Man City to victory at Burnley</h5>
+                <p>
+                  Champions start title defence with 3-0 win as Guardiola overcomes his former captain Kompany
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/images/slider/VN2.jpg" alt="VN2" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Guardiola: De Bruyne faces another spell on sidelines with injury</h5>
+                <p>Man City manager reports his playmaker aggravated his hamstring problem against Burnley</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/images/slider/VN2.jpg" alt="VN2" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Gameweek 1 FPL stats: Haaland justifies record backing as captain</h5>
+                <p>
+                  Man City forward scores twice after brace against Burnley in opening match of Fantasys
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#main-caurousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#main-caurousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- News -->
+
+      <div class="col-lg-4 pt-2 home-news">
+        <iframe width="100%" height="200px" src="https://www.youtube.com/embed/UFxfqk-hWcU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+
+        <div class="most-viewed-players">
+          <div class="slider_most infocontent">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide col-md-4">
+                <div class="d-flex align-items-center" style="
+                      padding: 0 0 30px 0;
+                      text-align: center;
+
+                      max-width: 100%;
+                      position: relative;
+                      top: 3px;
+                    " id="most_view">
+                  <h6 class="bg__dark-blue text-white subline pt-1">
+                    MOST VIEWED PLAYERS
+                  </h6>
+                  <div class="align__middle">
+                    <img class="mt-5" style="
+                          vertical-align: initial;
+                          max-width: 100%;
+                          height: auto;
+                          height: 98px;
+                          border: 1px solid #fff;
+                        " src="https://img.a.transfermarkt.technology/portrait/header/353366-1667831086.jpg?lm=1"
+                      alt="Player 2" />
+                  </div>
+                  <div class="most_slider p-2">
+                    <h5 class="text-start pt-2">
+                      Tetê
+                      <img style="max-width: 16%; margin-left: 5px"
+                        src="https://tmssl.akamaized.net/images/flagge/homepageSmall/26.png?lm=1520611569" alt="" />
+                    </h5>
+                    <p style="font-size: 0.9rem" class="text-start">
+                      market value: €25.00m
+                    </p>
+                    <div class="bg-light bg__tex-most">
+                      <img class="img__logo-most"
+                        src="https://tmssl.akamaized.net/images/wappen/homepage/660.png?lm=1396275305" alt="" />
+                      <a href="" class=""> Shakhtar D.</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="d-flex align-items-center" style="
+                      padding: 0 0 30px 0;
+                      text-align: center;
+
+                      width: 100%;
+                      position: relative;
+                      top: 3px;
+                    ">
+                  <h6 class="bg__dark-blue text-white subline pt-1">
+                    MOST VIEWED PLAYERS
+                  </h6>
+                  <div class="align__middle">
+                    <img class="mt-5" style="
+                          vertical-align: initial;
+                          max-width: 100%;
+                          height: auto;
+                          height: 98px;
+                          border: 1px solid #fff;
+                        " src="https://img.a.transfermarkt.technology/portrait/header/444523-1640776054.jpg?lm=1"
+                      alt="Player 2" />
+                  </div>
+                  <div class="most_slider p-2">
+                    <h5 class="text-start pt-2">
+                      Tetê
+                      <img style="max-width: 16%; margin-left: 5px"
+                        src="https://tmssl.akamaized.net/images/flagge/homepageSmall/26.png?lm=1520611569" alt="" />
+                    </h5>
+                    <p style="font-size: 0.9rem" class="text-start">
+                      market value: €25.00m
+                    </p>
+                    <div class="bg-light bg__tex-most">
+                      <img class="img__logo-most"
+                        src="https://tmssl.akamaized.net/images/wappen/homepage/660.png?lm=1396275305" alt="" />
+                      <a href="" class=""> Shakhtar D.</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end slider -->
+
+  <div class="container mt-2">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="https://tmssl.akamaized.net/images/foto/teaser/goncalo-ramos-benfica-2022-23-1691151627-113316.jpg?lm=1691151654"
+            class="card-img-top" alt="Image 1" />
+          <div class="card-body">
+            <p class="card-text">
+              Ramos joins PSG, Emirates Club sign Iniesta - The latest
+              transfers at a glance
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://tmssl.akamaized.net/images/foto/teaser/lavia-spotlight-1690991040-113070.jpg?lm=1690991046"
+            class="card-img-top" alt="Image 2" />
+          <div class="card-body">
+            <p class="card-text">
+              Liverpool expected to sign Southamption midfielder | How good is
+              Roméo Lavia?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="https://tmssl.akamaized.net/images/foto/teaser/manchester-city-champions-league-2022-2023-sieger-1686432711-109002.jpg?lm=1686432801"
+            class="card-img-top" alt="Image 3" />
+          <div class="card-body">
+            <p class="card-text">
+              Most valuable squads: Manchester City surpass Arsenal again
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="https://tmssl.akamaized.net/images/foto/teaser/manchester-city-champions-league-2022-2023-sieger-1686432711-109002.jpg?lm=1686432801"
+            class="card-img-top" alt="Image 3" />
+          <div class="card-body">
+            <p class="card-text">
+              Most valuable squads: Manchester City surpass Arsenal again
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="padding: 0px">
+    <!-- Tiêu đề trang -->
+    <div class="mt-5">
+      <h6 class="bg__border_player">
+        <span class="pr__8px" style="color: #6acb54">
+          <i class="fas fa-user"></i>
+        </span>
+        TOP 10 Players
+      </h6>
+      <div class="row mt-3 container-top-10-filter">
+        <div class="col-md-6 offset-6 top-10-players">
+          <button class="btn btn-primary" id="btn-sort-name" onclick="renderTopPlayer(1)">
+            Sort by Name
+          </button>
+          <button class="btn btn-primary" id="btn-sort-goal" onclick="renderTopPlayer(2)">
+            Sort by Goal
+          </button>
+          <input type="text" id="name-filter" class="form-control" placeholder="Enter name player" />
+          <button class="btn btn-success" id="btn-name-filter" onclick="renderTopPlayer(3)">
+            Filter
+          </button>
+        </div>
+      </div>
+      <!-- Danh sách thẻ card -->
+      <div class="container mt-3 list-card">
+        <div class="row" id="container-10-player">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="border__red2px">NEWS TICKER</div>
+
+    <section class="arrivals" id="arrivals">
+      <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+          <!-- 1 -->
+
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img style="
+                    border: 0.0625rem solid var(--tm-white, #fff);
+                    height: 5.625rem;
+                    width: 4.375rem;
+                  " src="https://img.a.transfermarkt.technology/portrait/medium/353366-1667831086.jpg?lm=1" alt="" />
+            </div>
+            <div class="content">
+              <p class="newsticker__boxheader pt-1 bg-light text-start" style="font-size: 0.8rem; color: black">
+                09.08.2023 - 20:27
+              </p>
+              <span class="newsticker__emblem">
+                <img class="rem__2-5"
+                  src="https://tmssl.akamaized.net/images/wappen/homepageSmall/281.png?lm=1467356331"
+                  title="Manchester City" alt="Manchester City" class="minifoto" />
+              </span>
+              <h6 class="text-start">For €30m?</h6>
+              <h6 style="color: black" class="text-start">
+                Benjamin Pavard: Can the Bayern defender replace Maguire at
+                Man United?
+              </h6>
+            </div>
+          </a>
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img style="
+                    border: 0.0625rem solid var(--tm-white, #fff);
+                    height: 5.625rem;
+                    width: 4.375rem;
+                  " src="https://img.a.transfermarkt.technology/portrait/medium/353366-1667831086.jpg?lm=1" alt="" />
+            </div>
+            <div class="content">
+              <p class="text-start newsticker__boxheader pt-1 bg-light" style="font-size: 0.8rem; color: black">
+                09.08.2023 - 20:27
+              </p>
+              <span class="newsticker__emblem">
+                <img class="rem__2-5"
+                  src="https://tmssl.akamaized.net/images/wappen/homepageSmall/281.png?lm=1467356331"
+                  title="Manchester City" alt="Manchester City" class="minifoto" />
+              </span>
+              <h6 class="text-start">For €30m?</h6>
+              <h6 style="color: black" class="text-start">
+                Benjamin Pavard: Can the Bayern defender replace Maguire at
+                Man United?
+              </h6>
+            </div>
+          </a>
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img style="
+                    border: 0.0625rem solid var(--tm-white, #fff);
+                    height: 5.625rem;
+                    width: 4.375rem;
+                  " src="https://img.a.transfermarkt.technology/portrait/medium/353366-1667831086.jpg?lm=1" alt="" />
+            </div>
+            <div class="content">
+              <p class="text-start newsticker__boxheader pt-1 bg-light" style="font-size: 0.8rem; color: black">
+                09.08.2023 - 20:27
+              </p>
+              <span class="newsticker__emblem">
+                <img class="rem__2-5"
+                  src="https://tmssl.akamaized.net/images/wappen/homepageSmall/281.png?lm=1467356331"
+                  title="Manchester City" alt="Manchester City" class="minifoto" />
+              </span>
+              <h6 class="text-start">For €30m?</h6>
+              <h6 style="color: black" class="text-start">
+                Benjamin Pavard: Can the Bayern defender replace Maguire at
+                Man United?
+              </h6>
+            </div>
+          </a>
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img style="
+                    border: 0.0625rem solid var(--tm-white, #fff);
+                    height: 5.625rem;
+                    width: 4.375rem;
+                  " src="https://img.a.transfermarkt.technology/portrait/medium/353366-1667831086.jpg?lm=1" alt="" />
+            </div>
+            <div class="content">
+              <p class="text-start newsticker__boxheader pt-1 bg-light" style="font-size: 0.8rem; color: black">
+                09.08.2023 - 20:27
+              </p>
+              <span class="newsticker__emblem">
+                <img class="rem__2-5"
+                  src="https://tmssl.akamaized.net/images/wappen/homepageSmall/281.png?lm=1467356331"
+                  title="Manchester City" alt="Manchester City" class="minifoto" />
+              </span>
+              <h6 class="text-start">For €30m?</h6>
+              <h6 style="color: black" class="text-start">
+                Benjamin Pavard: Can the Bayern defender replace Maguire at
+                Man United?
+              </h6>
+            </div>
+          </a>
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img style="
+                    border: 0.0625rem solid var(--tm-white, #fff);
+                    height: 5.625rem;
+                    width: 4.375rem;
+                  " src="https://img.a.transfermarkt.technology/portrait/medium/353366-1667831086.jpg?lm=1" alt="" />
+            </div>
+            <div class="content">
+              <p class="text-start newsticker__boxheader pt-1 bg-light" style="font-size: 0.8rem; color: black">
+                09.08.2023 - 20:27
+              </p>
+              <span class="newsticker__emblem">
+                <img class="rem__2-5"
+                  src="https://tmssl.akamaized.net/images/wappen/homepageSmall/281.png?lm=1467356331"
+                  title="Manchester City" alt="Manchester City" class="minifoto" />
+              </span>
+              <h6 class="text-start">For €30m?</h6>
+              <h6 style="color: black" class="text-start">
+                Benjamin Pavard: Can the Bayern defender replace Maguire at
+                Man United?
+              </h6>
+            </div>
+          </a>
+          <!-- end -->
+        </div>
+        <div class="swiper arrivals-slider">
+          <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+              <div class="image">
+                <img style="
+                      border: 0.0625rem solid var(--tm-white, #fff);
+                      height: 5.625rem;
+                      width: 4.375rem;
+                    " src="https://img.a.transfermarkt.technology/portrait/medium/353366-1667831086.jpg?lm=1" alt="" />
+              </div>
+              <div class="content">
+                <p class="text-start newsticker__boxheader pt-1 bg-light" style="font-size: 0.8rem; color: black">
+                  09.08.2023 - 20:27
+                </p>
+                <span class="newsticker__emblem">
+                  <img class="rem__2-5"
+                    src="https://tmssl.akamaized.net/images/wappen/homepageSmall/281.png?lm=1467356331"
+                    title="Manchester City" alt="Manchester City" class="minifoto" />
+                </span>
+                <h6 class="text-start">For €30m?</h6>
+                <h6 style="color: black" class="text-start">
+                  Benjamin Pavard: Can the Bayern defender replace Maguire at
+                  Man United?
+                </h6>
+              </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+              <div class="image">
+                <img style="
+                      border: 0.0625rem solid var(--tm-white, #fff);
+                      height: 5.625rem;
+                      width: 4.375rem;
+                    " src="https://img.a.transfermarkt.technology/portrait/medium/353366-1667831086.jpg?lm=1" alt="" />
+              </div>
+              <div class="content">
+                <p class="text-start newsticker__boxheader pt-1 bg-light" style="font-size: 0.8rem; color: black">
+                  09.08.2023 - 20:27
+                </p>
+                <span class="newsticker__emblem">
+                  <img class="rem__2-5"
+                    src="https://tmssl.akamaized.net/images/wappen/homepageSmall/281.png?lm=1467356331"
+                    title="Manchester City" alt="Manchester City" class="minifoto" />
+                </span>
+                <h6 class="text-start">For €30m?</h6>
+                <h6 style="color: black" class="text-start">
+                  Benjamin Pavard: Can the Bayern defender replace Maguire at
+                  Man United?
+                </h6>
+              </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+              <div class="image">
+                <img style="
+                      border: 0.0625rem solid var(--tm-white, #fff);
+                      height: 5.625rem;
+                      width: 4.375rem;
+                    " src="https://img.a.transfermarkt.technology/portrait/medium/353366-1667831086.jpg?lm=1" alt="" />
+              </div>
+              <div class="content">
+                <p class="text-start newsticker__boxheader pt-1 bg-light" style="font-size: 0.8rem; color: black">
+                  09.08.2023 - 20:27
+                </p>
+                <span class="newsticker__emblem">
+                  <img class="rem__2-5"
+                    src="https://tmssl.akamaized.net/images/wappen/homepageSmall/281.png?lm=1467356331"
+                    title="Manchester City" alt="Manchester City" class="minifoto" />
+                </span>
+                <h6 class="text-start">For €30m?</h6>
+                <h6 style="color: black" class="text-start">
+                  Benjamin Pavard: Can the Bayern defender replace Maguire at
+                  Man United?
+                </h6>
+              </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+              <div class="image">
+                <img style="
+                      border: 0.0625rem solid var(--tm-white, #fff);
+                      height: 5.625rem;
+                      width: 4.375rem;
+                    " src="https://img.a.transfermarkt.technology/portrait/medium/353366-1667831086.jpg?lm=1" alt="" />
+              </div>
+              <div class="content">
+                <p class="text-start newsticker__boxheader pt-1 bg-light" style="font-size: 0.8rem; color: black">
+                  09.08.2023 - 20:27
+                </p>
+                <span class="newsticker__emblem">
+                  <img class="rem__2-5"
+                    src="https://tmssl.akamaized.net/images/wappen/homepageSmall/281.png?lm=1467356331"
+                    title="Manchester City" alt="Manchester City" class="minifoto" />
+                </span>
+                <h6 class="text-start">For €30m?</h6>
+                <h6 style="color: black" class="text-start">
+                  Benjamin Pavard: Can the Bayern defender replace Maguire at
+                  Man United?
+                </h6>
+              </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+              <div class="image">
+                <img style="
+                      border: 0.0625rem solid var(--tm-white, #fff);
+                      height: 5.625rem;
+                      width: 4.375rem;
+                    " src="https://img.a.transfermarkt.technology/portrait/medium/353366-1667831086.jpg?lm=1" alt="" />
+              </div>
+              <div class="content">
+                <p class="text-start newsticker__boxheader pt-1 bg-light" style="font-size: 0.8rem; color: black">
+                  09.08.2023 - 20:27
+                </p>
+                <span class="newsticker__emblem">
+                  <img class="rem__2-5"
+                    src="https://tmssl.akamaized.net/images/wappen/homepageSmall/281.png?lm=1467356331"
+                    title="Manchester City" alt="Manchester City" class="minifoto" />
+                </span>
+                <h6 class="text-start">For €30m?</h6>
+                <h6 style="color: black" class="text-start">
+                  Benjamin Pavard: Can the Bayern defender replace Maguire at
+                  Man United?
+                </h6>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="container"></div>
+
+  <div class="container">
+    <div class="border__red2px">PREMIER LEAGUE</div>
+    <div class="row mt-4">
+      <div class="col-md-7">
+        <!-- Content for the larger column (if needed) -->
+
+        <h6 class="bg-danger p-2">MATCHES OF THE 1.MATCHDAY</h6>
+        <div class="table-responsive">
+          <!-- Table content -->
+
+          <table class="table table-hover table-striped">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Home team</th>
+                <th>Time</th>
+                <th>Guest team</th>
+              </tr>
+            </thead>
+            <tbody id="container-match">
+              <tr>
+                <td>Fri Aug 11, 2023</td>
+                <td>
+                  Burnley
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/1132.png?lm=1686818840" alt="" />
+                </td>
+                <td>9:00 PM</td>
+                <td>
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/281.png?lm=1467356331" alt="" />
+                  Manchester City
+                </td>
+              </tr>
+              <tr>
+                <td>Sat Aug 12, 2023</td>
+                <td>
+                  Arsenal
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/11.png?lm=1489787850" alt="" />
+                </td>
+                <td>1:30 PM</td>
+                <td>
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/703.png?lm=1598890289" alt="" />
+                  Nottingham Forest
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  Bournemouth
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/989.png?lm=1457991811" alt="" />
+                </td>
+                <td>4:00 PM</td>
+                <td>
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/379.png?lm=1464675260" alt="" />
+                  West Ham United
+                </td>
+              </tr>
+              <tr>
+                <td>Sat Aug 12, 2023</td>
+                <td>
+                  Brighton
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/1237.png?lm=1492718902" alt="" />
+                </td>
+
+                <td>4:00 PM</td>
+
+                <td>
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/1031.png?lm=1457723228" alt="" />
+                  Luton
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  Everton
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/29.png?lm=1445949846" alt="" />
+                </td>
+
+                <td>4:00 PM</td>
+
+                <td>
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/931.png?lm=1556831687" alt="" />
+                  Fulham
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  Sheffield United
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/350.png?lm=1409254138" alt="" />
+                </td>
+
+                <td>4:00 PM</td>
+                <td>
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/873.png?lm=1457723287" alt="" />
+                  Crystal Palace
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  Newcastle United
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/762.png?lm=1472921161" alt="" />
+                </td>
+
+                <td>6:30 PM</td>
+                <td>
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/405.png?lm=1469443765" alt="" />
+                  Aston Villa
+                </td>
+              </tr>
+              <tr>
+                <td>Sun Aug 13, 2023</td>
+                <td>
+                  Brentford
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/1148.png?lm=1625150543" alt="" />
+                </td>
+
+                <td>3:00 PM</td>
+
+                <td>
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/148.png?lm=1544345801" alt="" />
+                  Tottenham
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  Chelsea
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/631.png?lm=1682435911" alt="" />
+                </td>
+
+                <td>5:30 PM</td>
+                <td>
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/31.png?lm=1456567819" alt="" />
+                  Liverpool FC
+                </td>
+              </tr>
+              <tr>
+                <td>Mon Aug 14, 2023</td>
+                <td>
+                  Manchester United
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/985.png?lm=1457975903" alt="" />
+                </td>
+
+                <td>9:00 PM</td>
+
+                <td>
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/543.png?lm=1467496784" alt="" />
+                  Wolves
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <h6 class="bg-danger p-2">RANK OF LEAGUE</h6>
+        <div>
+          <select name="" id="list-league">
+            <option value="Premier League">Premier League</option>
+            <option value="La liga">La liga</option>
+            <option value="Bundesliga">Bundesliga</option>
+            <option value="Seria A">Seria A</option>
+            <option value="Ligue 1">Ligue 1</option>
+          </select>
+          <button class="btn" onclick="">Filter</button>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-striped table-bordered">
+            <!-- Table content -->
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Club</th>
+                <th>Matches</th>
+                <th>GD</th>
+                <th>Pts</th>
+              </tr>
+            </thead>
+            <tbody id="container-club-rank">
+              <tr>
+                <td>1</td>
+                <td>
+                  <img style="width: 20px; height: 20px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepage/543.png?lm=1467496784" alt="" />
+                  Arsenal
+                </td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- slider -->
+
+  <div class="container">.</div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <h5 class="bg__dark-blue text-white p-2 mt-5 mb-3">
+          Contract Extensions
+        </h5>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Player/ Position</th>
+
+              <th>Club</th>
+              <th>Extended Until</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="d-flex align-items-center">
+                  <img src="https://img.a.transfermarkt.technology/portrait/home2/s_30788_7006_2013_05_03_1.jpg?lm=1"
+                    alt="" />
+
+                  <div class="">
+                    <span class="d-block text-start pl__8px"><a href="">Leigh Broxham</a></span>
+                    <span class="d-block text-start pl__8px" style="font-size: 0.8rem">Second Striker</span>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="align__middle">
+                  <img style="max-width: 38%; padding-top: 6px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/1005.png?lm=1689169528" alt="" />
+                </div>
+              </td>
+
+              <td class="align__middle">Jun 30, 2024</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="d-flex align-items-center">
+                  <img src="https://img.a.transfermarkt.technology/portrait/home2/s_30788_7006_2013_05_03_1.jpg?lm=1"
+                    alt="" />
+
+                  <div class="">
+                    <span class="d-block text-start pl__8px"><a href="">Leigh Broxham</a></span>
+                    <span class="d-block text-start pl__8px" style="font-size: 0.8rem">Second Striker</span>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="align__middle">
+                  <img style="max-width: 38%; padding-top: 6px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/1005.png?lm=1689169528" alt="" />
+                </div>
+              </td>
+
+              <td class="align__middle">Jun 30, 2024</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="d-flex align-items-center">
+                  <img src="https://img.a.transfermarkt.technology/portrait/home2/s_30788_7006_2013_05_03_1.jpg?lm=1"
+                    alt="" />
+
+                  <div class="">
+                    <span class="d-block text-start pl__8px"><a href="">Leigh Broxham</a></span>
+                    <span class="d-block text-start pl__8px" style="font-size: 0.8rem">Second Striker</span>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="align__middle">
+                  <img style="max-width: 38%; padding-top: 6px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/1005.png?lm=1689169528" alt="" />
+                </div>
+              </td>
+
+              <td class="align__middle">Jun 30, 2024</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="d-flex align-items-center">
+                  <img src="https://img.a.transfermarkt.technology/portrait/home2/s_30788_7006_2013_05_03_1.jpg?lm=1"
+                    alt="" />
+
+                  <div class="">
+                    <span class="d-block text-start pl__8px"><a href="">Leigh Broxham</a></span>
+                    <span class="d-block text-start pl__8px" style="font-size: 0.8rem">Second Striker</span>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="align__middle">
+                  <img style="max-width: 38%; padding-top: 6px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/1005.png?lm=1689169528" alt="" />
+                </div>
+              </td>
+
+              <td class="align__middle">Jun 30, 2024</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="d-flex align-items-center">
+                  <img src="https://img.a.transfermarkt.technology/portrait/home2/s_30788_7006_2013_05_03_1.jpg?lm=1"
+                    alt="" />
+
+                  <div class="">
+                    <span class="d-block text-start pl__8px"><a href="">Leigh Broxham</a></span>
+                    <span class="d-block text-start pl__8px" style="font-size: 0.8rem">Second Striker</span>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div class="align__middle">
+                  <img style="max-width: 38%; padding-top: 6px"
+                    src="https://tmssl.akamaized.net/images/wappen/homepageWappen70x70/1005.png?lm=1689169528" alt="" />
+                </div>
+              </td>
+
+              <td class="align__middle">Jun 30, 2024</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-4">
+        <h5 class="bg__dark-blue text-white p-2 mt-5 mb-3">
+          Most Valuable Players
+        </h5>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>player/position</th>
+
+              <th>Club</th>
+              <th>Market Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Erling Haaland</td>
+              <td>Centre-Forward</td>
+              <td>Manchester City</td>
+              <td>€180.00m</td>
+            </tr>
+            <tr>
+              <td>Kylian Mbappé</td>
+              <td>Centre-Forward</td>
+              <td>Paris Saint-Germain</td>
+              <td>€180.00m</td>
+            </tr>
+            <tr>
+              <td>Vinicius Junior</td>
+              <td>Left Winger</td>
+              <td>Real Madrid</td>
+              <td>€150.00m</td>
+            </tr>
+            <tr>
+              <td>Jude Bellingham</td>
+              <td>Central Midfield</td>
+              <td>Real Madrid</td>
+              <td>€120.00m</td>
+            </tr>
+            <tr>
+              <td>Bukayo Saka</td>
+              <td></td>
+              <td></td>
+              <td>€120.00m</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-3">
+        <h5 class="bg__dark-blue text-white p-2 mt-5 mb-3">
+          Transfermarkt Data Variety
+        </h5>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Amount of Data</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Clubs</td>
+              <td>102,199</td>
+            </tr>
+            <tr>
+              <td>Players</td>
+              <td>1,110,552</td>
+            </tr>
+            <tr>
+              <td>Officials</td>
+              <td>114,657</td>
+            </tr>
+            <tr>
+              <td>Referees</td>
+              <td>64,585</td>
+            </tr>
+            <tr>
+              <td>Leagues</td>
+              <td>1,130</td>
+            </tr>
+            <tr>
+              <td>Cups</td>
+              <td>851</td>
+            </tr>
+            <tr>
+              <td>Matches</td>
+              <td>2,218,888</td>
+            </tr>
+            <tr>
+              <td>Match Reports</td>
+              <td>1,676,952</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <footer class="bg__dark-blue">
+    <div class="container text-center">
+      <h3>Stay Updated with Football News</h3>
+      <p>Follow us on social media for the latest football updates.</p>
+      <div class="social-icons">
+        <a href="#" class="me-3"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="me-3"><i class="fab fa-youtube"></i></a>
+        <a href="#" class="me-3"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <hr class="my-4" />
+    <div class="text-center">
+      <p>&copy;2023 Design By FireAlarm Team</p>
+    </div>
+  </footer>
+  <!-- Liên kết tới các script JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="../assets/js/silder.js"></script>
+
+  <script src="../assets/js/home.js"></script>
+  <script src="../assets/js/test.js"></script>
+</body>
+
+</html>

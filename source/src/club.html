@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Club</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../assets/css/root.css">
+  <link rel="stylesheet" href="../assets/css/club.css">
+  <link rel="stylesheet" href="../assets/css/home.css">
+
+  <script src="./players.js"></script>
+  <style>
+    .home-slider {
+      /* background-color: chartreuse; */
+      background-image: url("../assets/images/club/everton/everton-bg.jpg");
+      background-size: 100%;
+      display: inline;
+    }
+
+    .table td {
+      text-align: center;
+      background-color: #749BC2;
+      color: white;
+    }
+
+    .home-player object {
+      width: 100%;
+      height: 100%;
+    }
+
+    .table th {
+      text-align: center;
+      background-color: #91C8E4;
+      color: white;
+    }
+
+    .table {
+      border: 1dvb;
+      border-color: blanchedalmond;
+    }
+
+    .container-footer {
+      height: 170px;
+      width: 100%;
+      background-color: white;
+      display: flex;
+    }
+
+    .container-footer img {
+      width: 12.5%;
+      min-height: 130px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- header begin -->
+  <div>
+    <div class="container-fluid bg__dark-blue">
+      <div class="container">
+        <nav>
+          <div class="container-flex ">
+            <div class="logo">
+              <a href="#"><img src="../assets/images/logo.png" alt="Logo" class="img-fluid" /></a>
+            </div>
+
+            <ul class=" container-flex d__none994--max">
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-solid fa-rss"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link m__lr10" href="#"><i class="fa-brands fa-tiktok"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-light">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+            <div class="icon-bar">
+              <a class="nav-link d__none994--min" href="#"><i class="fa fa-fw fa-home"></i>Home</a>
+
+              <a class="nav-link d__none994--min" href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+              <a class="nav-link d__none994--min" href="#"><i class="fa fa-fw fa-user"></i>Login</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="material-icons">&#xe5d2;</i>
+              <!-- <span class="navbar-toggler-icon"></span> -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" aria-current="page" href="./home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./player.html">Player</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./club.html">Club</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./match.html">Match</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link m__lr10" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- header end-->
+
+  <div class="container mt-3">
+    <div class="row container-slider">
+
+      <div class="col-12 home-slider">
+        <div class="col-lg-4"><img src="../assets/images/club/everton/everton-logo.png" alt=""
+            style="max-height: 35vh;margin-top: 20px;"></div>
+        <div class="col-lg-3">
+          <h1 style="color: white;"><strong>Everton</strong></h1>
+        </div>
+      </div>
+
+    </div>
+    <div class="row container-player">
+      <div class="col-4 home-player">
+        <object data="./lichthidau.html" type=""></object>
+      </div>
+      <div class="col-8 home-other-player">
+        <div class="container mt-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Overviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Squad</a>
+            </li>
+          </ul>
+        </div>
+
+
+
+        <p>Everton Football Club is an English professional association football club based in Liverpool that competes
+          in the Premier League, the top tier of English football. The club was a founder member of the Football League
+          in 1888, and has, as of May 2023, competed in the top division for a record 120 seasons, having missed only
+          four top-flight seasons (1930–31, 1951–52, 1952–53, and 1953–54). Everton is the club with the second-longest
+          continuous presence in English top-flight football,[2] and ranks third in the all-time points rankings.[3] The
+          club has won nine league titles, five FA Cups, one European Cup Winners' Cup and nine Charity Shields.
+
+          Formed in 1878, Everton won their first League Championship during the 1890–91 season. After winning four more
+          League championships and two FA Cups, the club experienced a post-Second World War lull until a revival in the
+          1960s. A period of sustained success came in the mid-1980s, when Everton won a further two League
+          championships, one FA Cup, and the 1985 European Cup Winners' Cup. The club's most recent major trophy was the
+          1995 FA Cup.
+
+          The club's supporters are colloquially known as "Evertonians" or "Blues". Everton's main rivals are Liverpool,
+          whose home stadium at Anfield is just under one mile away from Everton's home at Goodison Park; the two clubs
+          contest the Merseyside derby. Everton have been based at Goodison Park since 1892, having moved from their
+          original home at Anfield following a disagreement over its rent. The club's home colours are royal blue shirts
+          with white shorts and socks.</p>
+      </div>
+    </div>
+    <div class="function-club col-6">
+      <button class="btn btn-primary" id="btn-sort-name" onclick="renderPlayers(1)">sort name</button>
+      <button class="btn btn-primary" id="btn-sort-goal" onclick="renderPlayers(2)">sort goal</button>
+      <input type="text" id="name-filter" class="form-control" placeholder="filter by name">
+      <button class="btn btn-success" id="btn-name-filter" onclick="renderPlayers(3)">Filter</button>
+    </div>
+    <table class="table table-bordered table-hover table-responsive">
+      <tr>
+        <th>No</th>
+        <th>Portrail</th>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Weight</th>
+        <th>Height</th>
+        <th>Goal</th>
+        <th>Date of Birth</th>
+        <th>Nationity</th>
+      </tr>
+      <tbody id="table-body-player">
+
+      </tbody>
+
+
+    </table>
+    <div class="row container-footer">
+      <img src="../assets/images/brandMark/barclays.jpg" alt="">
+      <img src="../assets/images/brandMark/leadpartner.jpg" alt="">
+      <img src="../assets/images/brandMark/officialball.jpg" alt="">
+      <img src="../assets/images/brandMark/officialbear.jpg" alt="">
+      <img src="../assets/images/brandMark/officialengineoil.jpg" alt="">
+      <img src="../assets/images/brandMark/officiltimekeeper.jpg" alt="">
+      <img src="../assets/images/brandMark/Panini.jpg" alt="">
+      <img src="../assets/images/brandMark/sorare.jpg" alt="">
+    </div>
+  </div>
+
+  <footer>
+    Footer
+  </footer>
+</body>
+<script src="../assets/js/club.js"></script>
+
+</html>

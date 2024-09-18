@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#match-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#match-left-col {
+    margin-left: 100px;
+    width: 25%;
+}
+
+#match-left-col-display {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    position: sticky;
+    top: 20px;
+    height: 500px;
+    overflow: auto;
+    
+    
+}
+#match-left-col-display::-webkit-scrollbar{
+    display: none;
+}
+#match-left-col-hidden {
+    display: none;
+}
+
+#match-right-col {
+    margin-right: 100px;
+    width: 57%;
+    border-radius: 10px;
+}
+
+#match-week {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("../images/match/header-matchweek.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+#match-week-name {
+    margin-left: 5px;
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+}
+
+#match-week-logo {
+    margin-right: 5px;
+
+}
+
+#match-left-text1 {
+    font-size: 12px;
+    text-align: center;
+    padding: 4px;
+
+}
+
+.match-left-text2 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 900;
+}
+
+.match-card-link {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.match-card {
+    background-color: var(--primary-color);
+    padding: 4px;
+}
+
+.match-card:hover {
+    background: linear-gradient(98.5deg, #05f0ff -46.16%, #7367ff 42.64%, #963cff 70.3%);
+    color: #fff;
+}
+
+#match-info-top {
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    margin: 2px;
+
+}
+
+#match-info-bottom {
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    margin: 2px;
+    background: var(--element-color);
+    color: white;
+}
+
+
+#match-info-vs {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#news {
+    background: var(--element-color);
+    color: white;
+    border-radius: 10px;
+}
+
+.news-element {
+    padding: 10px;
+}
+
+#video-highlight {
+    display: flex;
+    justify-content: space-between;
+    background: var(--element-color);
+    color: white;
+    border-radius: 10px;
+}
+
+.video-highlight-element {
+    margin: 10px;
+}
+
+.match-time {
+    text-align: center;
+}
+
+.match-left-col-element-row:hover {
+    background: var(--element-color);
+    transform: scale(1.08);
+}
+
+.match-left-col-element-row {
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+
+#match-info-vs-team {
+    background-color: blue;
+    z-index: -1;
+    width: 30%;
+    height: 60px;
+}
+
+#match-info-vs-viettel{
+    background: linear-gradient(98.5deg, #05f0ff -46.16%, #7367ff 42.64%, #963cff 70.3%);
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+.match-info-vs-time{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+    color: #7367ff;
+}
+
+#match-info-vs-hanoi{
+    background: linear-gradient(98.5deg, #05f0ff -46.16%, #7367ff 42.64%, #963cff 70.3%);
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    height: 70%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 120px;
+}
+
+.img-news img {
+    width: 100%;
+}
+
+.img-news:hover{
+    transform: scale(1.03);
+}
+
+.highlight-video:hover{
+    transform: scale(1.03);
+}
+
+.news-element-des{
+    font-size: 12px;
+}
+
+.match-right-col-title{
+    margin: 20px 15px; 
+    font-weight: 700; 
+    font-size: 25px
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 767px) {
+    #match-left-col {
+        display: none;
+    }
+
+    #match-right-col{
+        display: block;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+    #match-left-col {
+        display: none;
+    }
+
+    #match-right-col{
+        display: block;
+        
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1050px) {
+    #match-left-col {
+        display: block;
+    }
+
+    #match-right-col{
+        display: block;
+    }
+}
